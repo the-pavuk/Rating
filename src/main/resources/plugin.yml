@@ -1,0 +1,16 @@
+name: Rating
+version: '${version}'
+main: ru.the_pavuk.rating.Rating
+api-version: 1.17
+authors: [ the_pavuk ]
+description: Rating System
+commands:
+  rate:
+    description: Rate a player with this command.
+    usage: /rate <player> <rate>
+  feedback:
+    description: Plugin feedback
+    aliases:
+      - fb
+  reward:
+    description: Player capabilities
